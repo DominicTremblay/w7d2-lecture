@@ -1,8 +1,15 @@
 # Data Fetching & Other Side Effects
 
-Rules of Hooks
-Dependency array
-Cleanup
+- Hooks
+  
+  - useState
+  - useEffect
+
+- Controlled Inputs
+
+- Rules of Hooks
+- Dependency array
+- Cleanup
 
 ## React Hooks
 
@@ -16,6 +23,8 @@ Cleanup
 
 - useState takes in a single argument: the initial value for the state
 - Returns an array with the first element being the state and the second element being a function to update that state
+
+`[value, updateFunction] = useState(initialValue);`
 
 #### Todo Demo
 
